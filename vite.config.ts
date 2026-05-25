@@ -7,6 +7,7 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/Tugas3-STSI4308/',
   plugins: [
     vue(),
     legacy()
