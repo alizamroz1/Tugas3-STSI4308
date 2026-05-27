@@ -1,21 +1,12 @@
-import { createRouter, createWebHistory } from '@ionic/vue-router';
-import { RouteRecordRaw } from 'vue-router';
+import { createRouter, createWebHistory } from '@ionic/vue-router'
+import { RouteRecordRaw } from 'vue-router'
 import HomePage from '../views/HomePage.vue'
 
+// Listing 12.4 — Konfigurasi router
 const routes: Array<RouteRecordRaw> = [
-  {
-    path: '/',
-    redirect: '/home'
-  },
-  {
-    path: '/home',
-    name: 'Home',
-    component: HomePage
-  },
-  {
-    path: '/coin/:id',
-    component: () => import('../views/ViewCrypto.vue')
-  }
+  { path: '/', redirect: '/home' },
+  { path: '/home', name: 'Home', component: HomePage },
+  { path: '/coin/:id', component: () => import('../views/ViewCrypto.vue') }
 ]
 
 const router = createRouter({
