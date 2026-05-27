@@ -1,22 +1,16 @@
 {
-  "name": "ionic-app-base",
-  "private": true,
-  "version": "0.0.0",
+  "name": "crypto-tracker",
+  "version": "1.0.0",
+  "description": "Tugas 03 MSIM4401 - Aplikasi Cryptocurrency RESTful API",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "test:e2e": "cypress run",
-    "test:unit": "vitest",
-    "lint": "eslint ."
+    "preview": "vite preview"
   },
   "dependencies": {
     "@ionic/vue": "^8.0.0",
     "@ionic/vue-router": "^8.0.0",
-    "@types/axios": "^0.9.36",
     "axios": "^1.16.1",
     "ionicons": "^7.0.0",
     "vue": "^3.3.0",
@@ -26,17 +20,8 @@
   "devDependencies": {
     "@vitejs/plugin-legacy": "^5.0.0",
     "@vitejs/plugin-vue": "^4.0.0",
-    "@vue/eslint-config-typescript": "^12.0.0",
-    "@vue/test-utils": "^2.3.0",
-    "cypress": "^13.5.0",
-    "eslint": "^8.35.0",
-    "eslint-plugin-vue": "^9.9.0",
-    "gh-pages": "^6.3.0",
-    "jsdom": "^22.1.0",
     "terser": "^5.4.0",
     "typescript": "~5.9.0",
-    "vite": "^5.0.0",
-    "vitest": "^0.34.6",
-    "vue-tsc": "^2.1.10"
+    "vite": "^5.0.0"
   }
 }

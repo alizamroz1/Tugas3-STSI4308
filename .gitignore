@@ -1,32 +1,25 @@
-# Specifies intentionally untracked files to ignore when using Git
-# http://git-scm.com/docs/gitignore
+# Dependensi (jangan di-push, terlalu besar)
+node_modules/
 
-*~
-*.sw[mnpcod]
-.tmp
-*.tmp
-*.tmp.*
-*.sublime-project
-*.sublime-workspace
+# Hasil build sementara (yang di-push hanya /docs)
+dist/
+
+# File sistem
 .DS_Store
 Thumbs.db
-UserInterfaceState.xcuserstate
-$RECYCLE.BIN/
 
+# Log
 *.log
-log.txt
 npm-debug.log*
 
-/.idea
-/.ionic
-/.sass-cache
-/.sourcemaps
-/.versions
-/.vscode/*
-!/.vscode/extensions.json
-/coverage
-/dist
-/node_modules
-/platforms
-/plugins
-/www
+# Editor
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Ionic / Capacitor
+.ionic/
+.sourcemaps/
+/platforms/
+/plugins/
+/www/
