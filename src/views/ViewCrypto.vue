@@ -136,36 +136,30 @@ export default defineComponent({
 </script>
 
 <style scoped>
-ion-toolbar { --background: #161b22; }
-ion-title   { font-weight: 700; color: #e6edf3; font-size: 16px; }
-ion-content { --background: #0d1117; }
+ion-content { --background: #fdf6e3; }
+ion-toolbar { --background: #ffffff; }
 
 .hero {
   display: flex; flex-direction: column; align-items: center;
-  padding: 28px 20px 24px;
-  background: linear-gradient(180deg, #161b22, #0d1117);
-  border-bottom: 1px solid #21262d;
+  padding: 24px 16px 20px;
+  background: #fff;
+  border-bottom: 1px solid #c8b97a;
 }
-.hero-icon {
-  width: 64px; height: 64px; border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 24px; font-weight: 900; color: #fff;
-  margin-bottom: 12px; box-shadow: 0 4px 20px rgba(0,0,0,.4);
-}
-.hero-name  { font-size: 22px; font-weight: 800; margin: 0 0 6px; }
-.hero-sym   { font-size: 12px; color: #00c896; background: rgba(0,200,150,.1); border: 1px solid rgba(0,200,150,.25); padding: 3px 12px; border-radius: 100px; margin-bottom: 14px; }
-.hero-price { font-size: 30px; font-weight: 800; font-family: monospace; margin: 0 0 8px; }
-.hero-chg   { font-size: 13px; font-weight: 700; padding: 5px 14px; border-radius: 100px; }
-.up   { color: #00c896; background: rgba(0,200,150,.1); }
+.hero-icon  { width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 900; color: #fff; margin-bottom: 10px; }
+.hero-name  { font-size: 20px; font-weight: 800; color: #000; margin-bottom: 4px; }
+.hero-sym   { font-size: 12px; color: #3880ff; background: rgba(56,128,255,.1); border: 1px solid rgba(56,128,255,.3); padding: 2px 10px; border-radius: 100px; margin-bottom: 10px; }
+.hero-price { font-size: 28px; font-weight: 800; font-family: monospace; color: #000; margin-bottom: 6px; }
+.hero-chg   { font-size: 13px; font-weight: 700; padding: 4px 12px; border-radius: 100px; }
+.up   { color: #2dd36f; background: rgba(45,211,111,.1); }
 .down { color: #eb445a; background: rgba(235,68,90,.1); }
 
-.detail-list { background: transparent !important; padding: 12px !important; }
-ion-item {
-  --background: #161b22; --border-color: #21262d;
-  --color: #e6edf3; border-radius: 10px; margin-bottom: 6px;
-}
-ion-label b { font-size: 14px; color: #e6edf3; }
-ion-note    { font-size: 13px; font-family: monospace; color: #8b949e; }
+ion-list { background: transparent !important; margin: 12px 8px; }
+ion-item.detail-item { --background: #fff; --border-color: #c8b97a; border: 1px solid #c8b97a; margin-bottom: 6px; border-radius: 8px; }
+ion-label b { font-size: 14px; color: #000; }
+ion-note.val { font-family: monospace; font-size: 13px; color: #333; }
+ion-note.green { color: #2dd36f; }
+ion-note.red   { color: #eb445a; }
 
 .center { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 50vh; gap: 14px; }
 </style>
+

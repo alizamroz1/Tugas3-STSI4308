@@ -1,15 +1,14 @@
-/* Crypto dark theme — Tugas 03 MSIM4401 */
+/* Theme warna sesuai tampilan panduan — background krem kekuningan */
 
 body {
-  --ion-background-color: #0d1117;
-  --ion-text-color: #e6edf3;
-  --ion-border-color: #21262d;
-  --ion-color-primary: #00c896;
-  --ion-color-primary-rgb: 0, 200, 150;
-  --ion-color-primary-contrast: #000;
-  --ion-color-primary-shade: #00b085;
-  --ion-color-primary-tint: #1acda0;
-  --ion-item-background: #161b22;
-  --ion-toolbar-background: #161b22;
-  --ion-tab-bar-background: #161b22;
+  --ion-background-color: #fdf6e3;
+  --ion-text-color: #000000;
+  --ion-border-color: #c8b97a;
+  --ion-color-primary: #3880ff;
+  --ion-color-primary-rgb: 56, 128, 255;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-shade: #3171e0;
+  --ion-color-primary-tint: #4c8dff;
+  --ion-item-background: #fdf6e3;
+  --ion-toolbar-background: #ffffff;
 }
